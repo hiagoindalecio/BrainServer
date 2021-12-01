@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "env-cmd -f ./.env.dev ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
+    "prod": "env-cmd -f ./.env.prod ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
     "build": "env-cmd -f ./.env.prod react-scripts build"
   },
   "keywords": [],
